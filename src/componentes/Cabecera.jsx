@@ -5,4 +5,4 @@ function Cabecera(props) {
     </header>
   );
 }
-export default Cabecera;
+export default Cabecera;  
