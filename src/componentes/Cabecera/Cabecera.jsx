@@ -1,6 +1,8 @@
+import './Cabecera.css';
+
 function Cabecera(props) {
   return (
-    <header>
+    <header className="cabecera">
       <p>cabecera {props.usuario}</p>
     </header>
   );

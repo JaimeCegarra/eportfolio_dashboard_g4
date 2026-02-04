@@ -2,9 +2,10 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Cabecera from './componentes/Cabecera';
-import Main from './componentes/Main';
-import Roles from './componentes/Roles';
+import Cabecera from './componentes/Cabecera/Cabecera';
+import Main from './componentes/Main/Main';
+import Roles from './componentes/Roles/Roles';
+
 
 
 function App() {

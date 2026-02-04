@@ -1,6 +1,8 @@
+import './Main.css';
+
 function Main(props) {
   return (
-    <main>
+    <main className="main">
       <p>main {props.menu}</p>
     </main>
   );

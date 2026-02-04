@@ -1,6 +1,8 @@
+import './Roles.css';
+
 function Roles(props) {
   return (
-    <aside>
+    <aside className="roles">
         <p>Roles del usuario: {props.token}</p>
     </aside>
   );
